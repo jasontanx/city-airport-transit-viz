@@ -1,0 +1,368 @@
+[
+  {
+    "city": "Kuala Lumpur",
+    "country": "Malaysia",
+    "airport": "Kuala Lumpur International Airport (KUL)",
+    "city_center": "KL Sentral",
+    "distance_km": 57,
+    "time_mins": 28,
+    "train_operator": "KLIA Ekspres (ERL)",
+    "image_placeholder": "erl_logo.png",
+    "airport_lat": 2.7456,
+    "airport_lon": 101.7099,
+    "city_lat": 3.1333,
+    "city_lon": 101.6869,
+    "segments": [
+      {
+        "start": "KUL",
+        "end": "KL Sentral",
+        "line": "KLIA Ekspres",
+        "color": "#D31245",
+        "icon": "erl_logo.png"
+      }
+    ],
+    "local_price": 55.0,
+    "currency": "MYR",
+    "usd_price": 11.5
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "airport": "Changi Airport (SIN)",
+    "city_center": "Raffles Place / City Hall",
+    "distance_km": 20,
+    "time_mins": 35,
+    "train_operator": "MRT (SMRT)",
+    "image_placeholder": "smrt_logo.png",
+    "airport_lat": 1.3644,
+    "airport_lon": 103.9915,
+    "city_lat": 1.283,
+    "city_lon": 103.8513,
+    "segments": [
+      {
+        "start": "Changi Airport",
+        "end": "Tanah Merah",
+        "line": "East West Line (Branch)",
+        "color": "#009645",
+        "icon": "smrt_logo.png"
+      },
+      {
+        "start": "Tanah Merah",
+        "end": "City Hall",
+        "line": "East West Line",
+        "color": "#009645",
+        "icon": "smrt_logo.png"
+      }
+    ],
+    "local_price": 2.1,
+    "currency": "SGD",
+    "usd_price": 1.55
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "airport": "Suvarnabhumi Airport (BKK)",
+    "city_center": "Siam Station",
+    "distance_km": 31,
+    "time_mins": 32,
+    "train_operator": "ARL + BTS",
+    "image_placeholder": "arl_bangkok_logo.png",
+    "airport_lat": 13.69,
+    "airport_lon": 100.7501,
+    "city_lat": 13.7456,
+    "city_lon": 100.5342,
+    "segments": [
+      {
+        "start": "Suvarnabhumi",
+        "end": "Phaya Thai",
+        "line": "Airport Rail Link",
+        "color": "#8B0000",
+        "icon": "arl_bangkok_logo.png"
+      },
+      {
+        "start": "Phaya Thai",
+        "end": "Siam",
+        "line": "BTS Sukhumvit",
+        "color": "#76C72A",
+        "icon": "bts_logo.png"
+      }
+    ],
+    "local_price": 71.0,
+    "currency": "THB",
+    "usd_price": 2.0
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "airport": "Haneda Airport (HND)",
+    "city_center": "Tokyo Station",
+    "distance_km": 20,
+    "time_mins": 30,
+    "train_operator": "Tokyo Monorail / JR East",
+    "image_placeholder": "tokyo_monorail_logo.png",
+    "airport_lat": 35.5494,
+    "airport_lon": 139.7798,
+    "city_lat": 35.6812,
+    "city_lon": 139.7671,
+    "segments": [
+      {
+        "start": "Haneda",
+        "end": "Hamamatsucho",
+        "line": "Tokyo Monorail",
+        "color": "#00AEEF",
+        "icon": "tokyo_monorail_logo.png"
+      },
+      {
+        "start": "Hamamatsucho",
+        "end": "Tokyo Station",
+        "line": "JR Yamanote",
+        "color": "#80C241",
+        "icon": "jr_east_logo.png"
+      }
+    ],
+    "local_price": 670.0,
+    "currency": "JPY",
+    "usd_price": 4.5
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "airport": "Heathrow Airport (LHR)",
+    "city_center": "Paddington Station",
+    "distance_km": 24,
+    "time_mins": 15,
+    "train_operator": "Heathrow Express",
+    "image_placeholder": "heathrow_express_logo.png",
+    "airport_lat": 51.47,
+    "airport_lon": -0.4543,
+    "city_lat": 51.5167,
+    "city_lon": -0.1768,
+    "segments": [
+      {
+        "start": "Heathrow",
+        "end": "Paddington",
+        "line": "Heathrow Express",
+        "color": "#512D6D",
+        "icon": "heathrow_express_logo.png"
+      }
+    ],
+    "local_price": 25.0,
+    "currency": "GBP",
+    "usd_price": 31.5
+  },
+  {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "airport": "Hong Kong International Airport (HKG)",
+    "city_center": "Hong Kong Station (Central)",
+    "distance_km": 34,
+    "time_mins": 24,
+    "train_operator": "Airport Express (MTR)",
+    "image_placeholder": "mtr_logo.png",
+    "airport_lat": 22.308,
+    "airport_lon": 113.9185,
+    "city_lat": 22.2833,
+    "city_lon": 114.1588,
+    "segments": [
+      {
+        "start": "HKG Airport",
+        "end": "Hong Kong Station",
+        "line": "Airport Express",
+        "color": "#008A8B",
+        "icon": "mtr_logo.png"
+      }
+    ],
+    "local_price": 115.0,
+    "currency": "HKD",
+    "usd_price": 14.7
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "airport": "Incheon International Airport (ICN)",
+    "city_center": "Seoul Station",
+    "distance_km": 60,
+    "time_mins": 43,
+    "train_operator": "AREX (Express)",
+    "image_placeholder": "arex_logo.png",
+    "airport_lat": 37.4602,
+    "airport_lon": 126.4407,
+    "city_lat": 37.5546,
+    "city_lon": 126.9706,
+    "segments": [
+      {
+        "start": "Incheon",
+        "end": "Seoul Station",
+        "line": "AREX",
+        "color": "#0090D2",
+        "icon": "arex_logo.png"
+      }
+    ],
+    "local_price": 11000.0,
+    "currency": "KRW",
+    "usd_price": 8.2
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "airport": "Sydney Airport (SYD)",
+    "city_center": "Central Station",
+    "distance_km": 8,
+    "time_mins": 13,
+    "train_operator": "Airport Link (Sydney Trains)",
+    "image_placeholder": "sydney_trains_logo.png",
+    "airport_lat": -33.9399,
+    "airport_lon": 151.1753,
+    "city_lat": -33.8826,
+    "city_lon": 151.2036,
+    "segments": [
+      {
+        "start": "Sydney Airport",
+        "end": "Central",
+        "line": "T8 Airport & South Line",
+        "color": "#009B77",
+        "icon": "sydney_trains_logo.png"
+      }
+    ],
+    "local_price": 20.68,
+    "currency": "AUD",
+    "usd_price": 13.5
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "airport": "Charles de Gaulle Airport (CDG)",
+    "city_center": "Gare du Nord",
+    "distance_km": 26,
+    "time_mins": 35,
+    "train_operator": "RER B",
+    "image_placeholder": "rer_b_logo.png",
+    "airport_lat": 49.0097,
+    "airport_lon": 2.5479,
+    "city_lat": 48.8809,
+    "city_lon": 2.3553,
+    "segments": [
+      {
+        "start": "CDG Airport",
+        "end": "Gare du Nord",
+        "line": "RER B",
+        "color": "#5291CE",
+        "icon": "rer_b_logo.png"
+      }
+    ],
+    "local_price": 11.8,
+    "currency": "EUR",
+    "usd_price": 12.7
+  },
+  {
+    "city": "New York",
+    "country": "United States",
+    "airport": "John F. Kennedy International Airport (JFK)",
+    "city_center": "Penn Station",
+    "distance_km": 25,
+    "time_mins": 35,
+    "train_operator": "AirTrain JFK + LIRR",
+    "image_placeholder": "airtrain_lirr_logo.png",
+    "airport_lat": 40.6413,
+    "airport_lon": -73.7781,
+    "city_lat": 40.7506,
+    "city_lon": -73.9935,
+    "segments": [
+      {
+        "start": "JFK",
+        "end": "Jamaica Station",
+        "line": "AirTrain",
+        "color": "#ED1C24",
+        "icon": "airtrain_logo.png"
+      },
+      {
+        "start": "Jamaica Station",
+        "end": "Penn Station",
+        "line": "LIRR",
+        "color": "#0F47A1",
+        "icon": "lirr_logo.png"
+      }
+    ],
+    "local_price": 16.25,
+    "currency": "USD",
+    "usd_price": 16.25
+  },
+  {
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "airport": "Soekarno-Hatta International Airport (CGK)",
+    "city_center": "BNI City Station",
+    "distance_km": 30,
+    "time_mins": 46,
+    "train_operator": "KAI Bandara",
+    "image_placeholder": "kai_bandara_logo.png",
+    "airport_lat": -6.1256,
+    "airport_lon": 106.6558,
+    "city_lat": -6.2023,
+    "city_lon": 106.8197,
+    "segments": [
+      {
+        "start": "Soekarno-Hatta",
+        "end": "BNI City",
+        "line": "KAI Bandara",
+        "color": "#F37021",
+        "icon": "kai_bandara_logo.png"
+      }
+    ],
+    "local_price": 70000.0,
+    "currency": "IDR",
+    "usd_price": 4.4
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "airport": "Beijing Capital International Airport (PEK)",
+    "city_center": "Dongzhimen Station",
+    "distance_km": 30,
+    "time_mins": 25,
+    "train_operator": "Capital Airport Express",
+    "image_placeholder": "beijing_subway_logo.png",
+    "airport_lat": 40.0799,
+    "airport_lon": 116.6031,
+    "city_lat": 39.9409,
+    "city_lon": 116.4348,
+    "segments": [
+      {
+        "start": "PEK Airport",
+        "end": "Dongzhimen",
+        "line": "Airport Express",
+        "color": "#A290B5",
+        "icon": "beijing_subway_logo.png"
+      }
+    ],
+    "local_price": 25.0,
+    "currency": "CNY",
+    "usd_price": 3.5
+  },
+  {
+    "city": "Taipei",
+    "country": "Taiwan",
+    "airport": "Taoyuan International Airport (TPE)",
+    "city_center": "Taipei Main Station",
+    "distance_km": 40,
+    "time_mins": 35,
+    "train_operator": "Taoyuan Airport MRT",
+    "image_placeholder": "taoyuan_mrt_logo.png",
+    "airport_lat": 25.0797,
+    "airport_lon": 121.2342,
+    "city_lat": 25.0478,
+    "city_lon": 121.517,
+    "segments": [
+      {
+        "start": "Taoyuan Airport",
+        "end": "Taipei Main Station",
+        "line": "Airport MRT (Express)",
+        "color": "#8A1538",
+        "icon": "taoyuan_mrt_logo.png"
+      }
+    ],
+    "local_price": 150.0,
+    "currency": "TWD",
+    "usd_price": 4.7
+  }
+]
