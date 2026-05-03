@@ -59,6 +59,14 @@ default_countries = [c for c in sea_countries if c in available_countries]
 
 search_country = st.sidebar.multiselect("Filter by Country:", options=available_countries, default=default_countries)
 
+st.sidebar.divider()
+st.sidebar.markdown(f"""
+**📅 Data Status**  
+*As of:* May 3, 2026  
+*Prices:* Local currency rates  
+*Sources:* KLIA Ekspres, SMRT, ARL BKK, KAI Bandaraya official sites.
+""")
+
 # --- DATA PROCESSING ---
 # Add estimated average speed
 df["estimated_speed_kmh"] = (df["distance_km"] / (df["time_mins"] / 60)).round(1)
@@ -234,7 +242,7 @@ st.divider()
 
 # --- VISUALIZATION: TRANSFER FOCUS ---
 st.subheader("🔀 Transfer Focus: Route Segments")
-st.markdown("Understanding the pain points of transfers. Color-coded segments represent different transit lines required to reach the destination.")
+st.markdown("Understanding the pain points of transfers. Color-coded segments represent different transit lines. *(Prices as of May 2026)*")
 
 def generate_logo_badge(line_name, color):
     # Map operator to local LOGO file
